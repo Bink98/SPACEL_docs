@@ -1,9 +1,4 @@
 version: 2
 
 conda:
-  environment: environment.yml
-
-python:
-  install:
-    - requirements: docs/requirements.txt
-    - requirements: requirements.txt
+  environment: readthedocs_environment.yml
