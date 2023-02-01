@@ -10,10 +10,10 @@ SPACEL (**SP**atial **A**rchitecture **C**haracterization by d**E**ep **L**earni
 ## Content
 * {doc}`Installation <installation>`
 * {doc}`Tutorials <tutorials>`
-%    * [Spoint tutorial: Deconvolution of cell types distribution of spatial transcriptomics](tutorial/deconvolution_of_cell_types_distribution.ipynb)
-%    * [Splane tutorial: Identify uniform spatial domain in multiple slices](tutorial/identification_of_uniform_spatial_domain.ipynb)
-%    * [Scube tutorial: Alignment of multiple spatial transcriptomic slices](tutorial/alignment_of_multiple_slices.ipynb)
-%    * [Scube tutorial: 3D expression modeling with gaussian process regression](tutorial/3D_expression_modeling.ipynb)
+    * {doc}`Spoint tutorial: Deconvolution of cell types distribution of spatial transcriptomics <tutorials/deconvolution_of_cell_types_distribution>`
+    * {doc}`Splane tutorial: Identify uniform spatial domain in multiple slices <tutorials/identification_of_uniform_spatial_domain>`
+    * {doc}`Scube tutorial: Alignment of multiple spatial transcriptomic slices <tutorials/alignment_of_multiple_slices>`
+    * {doc}`Scube tutorial: 3D expression modeling with gaussian process regression <tutorials/3D_expression_modeling>`
 * {doc}`API <api>`
 
 ```{toctree}

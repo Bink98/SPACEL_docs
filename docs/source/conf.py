@@ -1,3 +1,6 @@
+import sys
+import os 
+sys.path.insert(0, os.path.abspath(".."))
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
@@ -9,7 +12,7 @@ release = '1.0'
 version = '1.0'
 
 # -- General configuration
-
+exclude_patterns = ['_build', '.DS_Store', '**.ipynb_checkpoints']
 extensions = [
     'myst_parser',
     'sphinx.ext.duration',
@@ -20,7 +23,8 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
-    'sphinx_autodoc_typehints'
+    'sphinx_autodoc_typehints',
+    'nbsphinx',
 ]
 
 intersphinx_mapping = {
