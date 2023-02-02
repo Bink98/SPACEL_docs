@@ -1,6 +1,9 @@
 import sys
 import os 
 sys.path.insert(0, os.path.abspath(".."))
+from SPACEL import Spoint
+from SPACEL import Splane
+from SPACEL import Scube
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
